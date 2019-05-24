@@ -1,0 +1,92 @@
+thead td 	    {
+    border: 3px solid #dddddd;
+    background-color:#0080ff;
+    color:white;
+    font-size: 20px;
+   }
+  
+  
+  td 	   	{
+       border: 3px solid #dddddd;
+       text-align: left;
+       padding: 8px;
+       color:darkgreen;    
+   }
+
+textarea{
+  width: 100%;
+  border: none;
+
+}
+
+th{
+
+font-weight:bold;
+font-family: 'Courier New', Courier, monospace;
+font-size:22;
+
+}
+
+
+   table{
+     table-layout: fixed;
+   }  
+
+  form{
+  margin:10px;
+  }
+   td:nth-child(odd) {
+    background: #ffbf00;
+    color:black;
+  }
+  
+  
+  td:nth-child(even) {
+    background: #4682B4;
+    color: white;
+  }
+  
+
+  .navbar {
+    padding: 0.8rem;
+    background-color: aqua;
+  }
+  
+  .navbar-nav li{
+    padding-right: 20px;
+  }
+  
+  .nav-link{
+    font-size: 1.1rem !important;
+  }
+
+  form{
+    margin:10px;
+    }
+
+    #logo{
+      background-color:steelblue;
+      font-family: cursive;
+      font-stretch: wider;
+            color:yellow;
+            padding:2rem;
+            font-size:58px;
+    }
+
+    button:hover{
+        background-color:brown;
+        }
+    
+    .hrTag{
+          border-top: 1px solid yellow;
+          width:100%;
+          margin-top:1rem;
+          margin-bottom:1rem;
+        }    
+          
+          footer{
+            background-color:darkolivegreen;
+            color:#d5d5d5;
+            padding-top:2rem;
+          }
+          

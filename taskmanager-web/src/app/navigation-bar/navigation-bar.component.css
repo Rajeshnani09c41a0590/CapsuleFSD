@@ -1,0 +1,60 @@
+li strong{
+  display: inline-block;
+  padding: 20px;
+ 
+  
+  }    
+    .navbar {
+      padding: 6 rem;
+      font-family: cursive;
+      background-color:skyblue;
+      
+       color:yellow; 
+       padding:10px;
+      font-size: x-large;
+       text-align-last: left;
+    }
+    
+    .navbar-nav li{
+      padding: 20px;
+    }
+    .navbar-nav li::selection{
+      background-color: white;
+    }
+ 
+    .nav-link{
+      font-size: 66 px bold  !important;
+      color: yellow !important;
+      
+    }
+    
+    nav{
+      width:100%;
+    }
+    .nav-link:hover{
+      text-decoration: underline;
+      text-decoration-color:yellow;
+      }
+
+
+    button:hover{
+      background-color:green;
+      }
+ 
+     .nav-link:active
+     {
+       background-color: blue;
+     } 
+  header{
+    background-color:lightgoldenrodyellow;
+    color:white; 
+    padding:10px;
+    font-size:38px;
+  }
+  
+  footer{
+    background-color:#3f3f3f;
+    color:#d5d5d5;
+    padding-top:2rem;
+  }
+          
