@@ -55,5 +55,17 @@ export class ViewTaskComponent implements OnInit {
     }
 
   }
+  deleteTask(data:any)
+  { 
+    this.jsonService.deleteTask(data).subscribe(
+      (data)=>{
+                this.toastrService.successMessages("Task : " + data.task  +" has been successfully deleted");
+                this.loadData();
+              },
+    (error)=>{
+                this.toastrService.deleteMessages("Error Deleting Task:" + data.task + "!!! Please Try again");
+              } )
+
+  }
 
 }

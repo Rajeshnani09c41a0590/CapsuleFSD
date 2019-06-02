@@ -61,7 +61,8 @@
           <td>Start Date</td>
           <td>End Date</td>    
           <td>Edit </td>   
-          <td>End </td>   
+          <td>End </td> 
+          <td>Delete</td>  
       </tr>
         
    </thead>
@@ -80,6 +81,7 @@
       <td>{{result.endDate}}</td>
       <td><a [routerLink]="['/tasks/',result.taskId]">  <button type="button" [disabled]="result.endDate <= currentDate" class="btn btn-primary">Edit</button> </a> </td>
       <td><button type="button" class="btn btn-primary"   (click)="updateEndDate(result)" [disabled]="result.endDate <= currentDate"> End </button>
+      <td><button type="button" class="btn btn-danger"   (click)="deleteTask(result)"> Delete </button>
       </td> 
       
     </tr>

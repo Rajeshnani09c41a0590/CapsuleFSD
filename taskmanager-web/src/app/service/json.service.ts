@@ -36,6 +36,11 @@ let observables= this.httpClient.put(this.JSON_URL+  '/updateTask/'+ id  , data)
 return observables;    
 }
 
+deleteTask(data:any):Observable<any>
+{
+let observables= this.httpClient.post(this.JSON_URL+  '/Delete Task', data);
+return observables;    
+}
 
 insertData(data:any):Observable<any>{
   let observables = this.httpClient.post(this.JSON_URL+"/addTask",data)
